@@ -1,0 +1,84 @@
+# Environment variables (contains sensitive tokens)
+.env
+
+# Spotify OAuth (written by Setup flow or get_spotify_refresh_token.py)
+config/.spotify_refresh_token
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+Miniconda3-latest-MacOSX-x86_64.sh
+
+# C/C++ build
+native/build/
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+compile_commands.json
+
+# Node / dashboard
+node_modules/
+dashboard/dist/
+dashboard/.vite/
+dashboard/build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.docker/
+
+# Local-only session / chat notes (not for main)
+docs/private-neuro-rave-session-log.md
+
+# Local Spotify mood → playlist URIs (dashboard Setup writes this; do not commit)
+config/spotify_mood_mapping.json
+
+# Local EEG recordings (large; keep out of git)
+eeg data/
+
+# Generated calibration output (regenerate via scripts/calibration_run.py)
+artifacts/

@@ -1,0 +1,61 @@
+{
+  "N_CHANNELS":       32,
+  "SAMPLE_RATE":      512,
+  "WINDOW_SIZE":      512,
+  "SIMULATE":         false,
+
+  "LINE_FREQ":                        60,
+  "SESSION_THETA_BETA_CALIBRATION": false,
+  "SESSION_THETA_BETA_WARMUP_WINDOWS": 120,
+  "SESSION_THETA_BETA_LOW_PERCENTILE":   10,
+  "SESSION_THETA_BETA_HIGH_PERCENTILE":  90,
+  "SESSION_THETA_BETA_MIN_SPREAD":       0.02,
+
+  "NEURO_FEATURE_SOURCE": "attention",
+  "NEURO_APPLY_STABILIZER_SMOOTH": true,
+
+  "FOCUS_THETA_BETA_LOW":  0.10,
+  "FOCUS_THETA_BETA_HIGH": 0.42,
+  "SIM_PHASE_SECONDS":     30,
+
+  "ENERGY_ALPHA_SUP_PERCENT_LOW":   -10,
+  "ENERGY_ALPHA_SUP_PERCENT_HIGH":  45,
+  "ENERGY_RAW_CLIP_LOW":            -50,
+  "ENERGY_RAW_CLIP_HIGH":           100,
+  "ENERGY_BLEND_ABSOLUTE_WEIGHT":   0.55,
+  "ENERGY_HISTORY_MAX":             96,
+  "GAMMA_AROUSAL_WEIGHT":           0.14,
+  "ENERGY_SLOW_ALPHA":              0.045,
+  "ENERGY_FAST_WEIGHT":             0.62,
+
+  "MOOD_HYPE_E_EFF_MIN":        0.68,
+  "MOOD_CALM_E_MAX":            0.33,
+  "MOOD_CALM_F_MAX":            0.42,
+  "MOOD_DEEP_FOCUS_E_MAX":      0.43,
+  "MOOD_DEEP_FOCUS_F_MIN":      0.52,
+  "MOOD_DISTRACT_HYPE_E_MIN":   0.52,
+  "MOOD_DISTRACT_HYPE_F_MAX":   0.38,
+  "MOOD_D_ENERGY_SCALE":        0.85,
+
+  "ATTENTION_ALPHA_SUP_THRESHOLD": 0.09,
+  "ATTENTION_SUSTAINED_SEC":       2.5,
+  "ATTENTION_VARIABILITY_SEC":     15.0,
+  "ATTENTION_VARIABILITY_MAX":     0.025,
+  "ENERGY_ATTENTION_BLEND":        0.3,
+  "FOCUS_ATTENTION_BLEND":         0.4,
+
+  "BIOSEMI_HOST":     "127.0.0.1",
+  "BIOSEMI_PORT":     8888,
+  "BYTES_PER_SAMPLE": 3,
+
+  "WS_HOST":          "0.0.0.0",
+  "WS_PORT":          8733,
+  "DASHBOARD_PORT":   5173,
+
+  "SPOTIFY_CLIENT_ID":      "",
+  "SPOTIFY_CLIENT_SECRET":  "",
+  "SPOTIFY_PLAYLIST_CALM":  "spotify:playlist:63K1r9eNMihJJGQ9RE0RMo,spotify:playlist:37i9dQZF1DX4sWSpwq3LiO",
+  "SPOTIFY_PLAYLIST_FOCUS": "spotify:album:526GOHUzH201xPsVWgBi1s,spotify:playlist:37i9dQZF1DWZZbwlv3Vmtr,spotify:playlist:37i9dQZF1DWXLeA8Omikj7",
+  "SPOTIFY_PLAYLIST_HYPE":  "spotify:playlist:7eEfJz9b3a1wS2jSyOvRvg,spotify:playlist:37i9dQZF1DX76Wlfdnj7AP",
+  "SPOTIFY_PLAYLIST_DEEP_FOCUS": "spotify:playlist:37i9dQZF1DWZeKCadgRdKQ,spotify:album:526GOHUzH201xPsVWgBi1s,spotify:playlist:37i9dQZF1DWZZbwlv3Vmtr"
+}
